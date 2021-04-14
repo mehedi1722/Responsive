@@ -1,0 +1,93 @@
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: white; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #000000; }
+  .navbar .nav-item:last-child {
+    padding-right: 0px; }
+
+#showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/mountains.jpg); }
+  #showcase .btn {
+    border-radius: 0px !important; }
+
+.btn-lg {
+  background: black !important;
+  color: white !important;
+  border-radius: 0 !important; }
+
+.card {
+  border-radius: 0 !important; }
+
+.fa-arrow-down {
+  background: black;
+  color: white;
+  padding: 3px;
+  border-radius: 50%; }
+
+.book-review-section {
+  background: white; }
+
+.team-img {
+  margin-top: -45px; }
+
+.team-section .card i {
+  font-size: 25px; }
+
+.team-section .card:hover {
+  background: #469cae !important;
+  color: white !important; }
+
+.team-section .card:hover i {
+  color: white !important; }
+
+.button {
+  border-radius: 0 !important;
+  background: #469cae !important;
+  color: black !important; }
+
+.footer-section {
+  background: #469cae; }
+
+footer {
+  height: 40vh; }
+
+@media (max-width: 768px) {
+  #showcase h1 {
+    font-size: 60px; }
+  .card-component {
+    margin-top: 20px; }
+  .sign-up-section img {
+    display: none; } }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px; }
+  .navbar {
+    background-color: white; }
+    .navbar .navbar-toggler-icon {
+      color: white !important; }
+  .margin-top {
+    margin-top: 20px; }
+  .card-component {
+    margin-top: 20px; }
+  .book-review-section h1 {
+    font-size: 40px; }
+  .book-review-section p {
+    font-size: 15px; }
+  .book-review-section .accordion {
+    font-size: 40px; }
+  .team-section h1 {
+    font-size: 40px; }
+  .team-section p {
+    font-size: 15px; }
+  .team-section .accordion {
+    font-size: 40px; }
+  .sign-up-section h1 {
+    font-size: 40px;
+    margin-top: 20px; }
+  .sign-up-section img {
+    display: none; } }
